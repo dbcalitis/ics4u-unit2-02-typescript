@@ -6,7 +6,7 @@
  */
 
 class MrCoxallStack {
-  private stack: number[] = []
+  private readonly stack: number[] = []
 
   getStack(): number[] {
     return this.stack

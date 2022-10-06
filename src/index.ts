@@ -26,7 +26,7 @@ myStack.pushItem(userNum3)
 // Output
 console.log(myStack.getStack())
 
-console.log(`\nPopped number: ${myStack.popItem()}`)
+console.log(`\nPopped number: ${String(myStack.popItem())}`)
 
 console.log(myStack.getStack())
 
