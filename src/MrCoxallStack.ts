@@ -8,17 +8,17 @@
 class MrCoxallStack {
   private readonly stack: number[] = []
 
-  # getter
+  // getter
   getStack(): number[] {
     return this.stack
   }
 
-  # pushItem - Adds a new item in stack array.
+  // pushItem - Adds a new item in stack array.
   pushItem(pushedNumber: number): void {
     this.stack.push(pushedNumber)
   }
 
-  # popItem - Returns and removes the last item from the stack array.
+  // popItem - Returns and removes the last item from the stack array.
   popItem(): number | undefined {
     return this.stack.pop()
   }
